@@ -1,0 +1,9 @@
+h1{
+    background-color: black;
+    color: chartreuse;
+    border-radius: 25px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
