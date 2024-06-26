@@ -12,7 +12,17 @@ alert("¡vienvenido!, " + ingresenombre);
 
 let ingresapellido = prompt("bueno, ahora ¿cual es tu apellido?:");
 
-alert("¡que lindo apellido! " + ingresenombre  + ingresapellido);
+function nombreCompleto(nombre, apellido){
+
+alert("¡que lindo apellido! " + nombre + " " + apellido);
+}
+
+let nombreIngresado = ingresenombre;
+
+let apellidoIngresado = ingresapellido;
+
+nombreCompleto(nombreIngresado, apellidoIngresado);
+
 
 alert("me presento, yo soy Nicolas Florentin");
 
@@ -103,4 +113,15 @@ while(ingresar18 != "126"){
     ingresar18 = prompt("no es la respuesta correcta, intenta de nuevo");
 }
 
-alert("genial, eres un buen matematico, adios")
+function despedida(a1, a2, a3){
+
+    alert(a1 + " " + a2 + " " + a3)
+}
+
+let pregunta = prompt("¿te gusto esta pagina?");
+
+let nos_vemos = prompt("proximamente habra mas ¿vas a volver?");
+
+let adios = alert("genial, eres un buen matematico, adios");
+
+despedida(pregunta, nos_vemos, adios);
